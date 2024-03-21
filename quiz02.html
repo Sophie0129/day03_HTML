@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;}
+        .back {width: 400px; background: gray; border: 3px solid }
+        .head {width: 400px; padding: 20px 0; background: lightcoral;
+               position: relative; text-align: center;}
+        .nav {width: 400px; padding: 20px 0; background: yellow; text-align: center; }
+        .sec1 {width: 70%; padding: 50px 0; background: green; text-align: center;}
+        .sec2 {width: 30%; padding: 50px 0; background: rgb(148, 110, 237); text-align: center;}
+        .foot {width: 400px; padding: 20px 0; background: pink; text-align: center; }
+        div {display: flex;}
+
+    </style>
+</head>
+<body>
+    <nav class="back">
+        <header class="head">헤더</header> 
+        <div>
+        <nav class="nav">네비</nav>
+        </div>
+        <div>
+        <section class="sec1">
+            <p>섹션1</p><br>
+            <p style="background: skyblue; width: 80%; 
+            margin: auto; border: 3px solid">header</p><br>
+            <p style="background: lavender; width: 80%; 
+            margin: auto; border: 3px solid">acticle</p><br>
+            <p style="background: orange; width: 80%; 
+            margin: auto; border: 3px solid">footer</p>
+        </section>
+        <section class="sec2">섹션2</section>
+        </div>  
+        <footer class="foot">풋터</footer>
+    </nav>
+</body>
+</html>

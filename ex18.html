@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sp{
+            position: static; left:30px; background: cyan;
+            width: 400px; height: 50px;
+        }
+        .rp1{
+            position: fixed; right: 30px; top: 10px; background: orange;
+            width: 400px; height: 50px;
+            z-index: 1; /*제일 높은 숫자가 화면의 가장 위에 위치*/
+        }
+        .rp2{
+            position: absolute; right: 60px; top: 20px; background: lightblue;
+            width: 400px; height: 50px;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+    <p class="sp">정적 위치 설정</p>
+    <p class="rp1">고정 위치(Fixed)</p><!--화면을 움직여도 그 위치 그대로-->
+    <p class="rp2">절대 위치 설정(Absolute)</p>
+    <p class="sp">정적 위치 설정</p>
+    <p class="sp">정적 위치 설정</p>
+</body>
+</html>

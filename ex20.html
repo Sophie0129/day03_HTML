@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {position: absolute; z-index: 3; left: 0px; top: 0px;}
+        h1 { position: relative; z-index: 4; background: red;}
+        p {position: fixed; z-index: 5; left: 0px; top: 0px; blue; background: lightblue;}
+    </style>
+</head>
+<body>
+    <h1><a href="#">링크가 달려있어요</a></h1>
+    <img src="test.png" width="100px" height="100px">
+    <p><b>z-index 설정은 position이 설정되어 있는상태에서 가능(static안됨)</b></p>
+    <h3 style="margin-top: 100px;">
+    static는 z-index조절 되지 않으며, -1은 제일 아래 놓겠다는 의미<br>
+    기본값은 0</h3>
+    <!--링크의 경우 위에 내용이 덮히면 클릭이 안될 수 도 있다-->
+</body>
+</html>
